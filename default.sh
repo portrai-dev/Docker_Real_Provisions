@@ -16,6 +16,12 @@ NODES=(
 	"https://github.com/WASasquatch/was-node-suite-comfyui"
 	"https://github.com/AI-taja/ComfyUI-FaceChain"
 	"https://github.com/Fannovel16/comfyui_controlnet_aux"
+	"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+	"https://github.com/sipherxyz/comfyui-art-venture"
+	"https://github.com/jamesWalker55/comfyui-various"
+	"https://github.com/rgthree/rgthree-comfy"
+	"https://github.com/kijai/ComfyUI-KJNodes"
+	"https://github.com/storyicon/comfyui_segment_anything"
 )
 
 CHECKPOINT_MODELS=(
@@ -24,6 +30,9 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
+)
+SAM_MODELS=(
+    "https://huggingface.co/segments-arnaud/sam_vit_b/blob/main/sam_vit_b_01ec64.pth"
 )
 
 VAE_MODELS=(
@@ -66,6 +75,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+	provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/sams" \
+        "${SAM_MODELS[@]}"
     provisioning_print_end
 }
 
