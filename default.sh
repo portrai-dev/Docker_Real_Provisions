@@ -46,9 +46,9 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    "https://huggingface.co/ddoanlinh/controlnet_illumination/blob/main/control_v1p_sd15_illumination.safetensors"
-	"https://huggingface.co/lllyasviel/control_v11p_sd15_openpose"
-	"https://huggingface.co/lllyasviel/control_v11f1p_sd15_depth"
+    "https://huggingface.co/ddoanlinh/controlnet_illumination/resolve/main/control_v1p_sd15_illumination.safetensors?download=true"
+	"https://civitai.com/api/download/models/537364"
+	"https://huggingface.co/lllyasviel/control_v11f1p_sd15_depth/resolve/main/diffusion_pytorch_model.safetensors?download=true"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
