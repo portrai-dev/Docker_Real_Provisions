@@ -21,6 +21,7 @@ NODES=(
 	"https://github.com/jamesWalker55/comfyui-various"
 	"https://github.com/rgthree/rgthree-comfy"
 	"https://github.com/kijai/ComfyUI-KJNodes"
+ 	"https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
 	"https://github.com/storyicon/comfyui_segment_anything"
 )
 
