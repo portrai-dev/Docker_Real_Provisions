@@ -15,13 +15,13 @@ NODES=(
 	"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
 	"https://github.com/WASasquatch/was-node-suite-comfyui"
 	"https://github.com/AI-taja/ComfyUI-FaceChain"
+ 	"https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
 	"https://github.com/Fannovel16/comfyui_controlnet_aux"
 	"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
 	"https://github.com/sipherxyz/comfyui-art-venture"
 	"https://github.com/jamesWalker55/comfyui-various"
 	"https://github.com/rgthree/rgthree-comfy"
 	"https://github.com/kijai/ComfyUI-KJNodes"
- 	"https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
 	"https://github.com/storyicon/comfyui_segment_anything"
 )
 
